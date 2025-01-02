@@ -4,6 +4,13 @@ module.exports = {
     content: ["./index.html", "./src/**/*.{ts,tsx,js,jsx}"],
   theme: {
   	extend: {
+
+			// added support for smaller screens
+			screens: {
+				'xxs': '420px',
+				'xs': '540px'
+			},
+			
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
