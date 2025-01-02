@@ -41,7 +41,7 @@ Ensure you have the following installed:
 
    ```bash
    git clone https://github.com/ak-404/dynamic_event_calendar.git
-   cd dynamic-event-calendar
+   cd dynamic_event_calendar
     ```
 
 2. **Install dependencies**:
